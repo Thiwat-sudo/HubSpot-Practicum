@@ -9,7 +9,7 @@ app.use(express.json());
 
 // * Please DO NOT INCLUDE the private app access token in your repo. Don't do this practicum in your normal account.
 const PRIVATE_APP_ACCESS = "";
-const CUSTOM_OBJECT_TYPE = "";
+const CUSTOM_OBJECT_TYPE = ""; //Number objectType on address browser bar
 const HUBSPOT_API = `https://api.hubapi.com/crm/v3/objects/${CUSTOM_OBJECT_TYPE}?limit=10&properties=name&properties=vin&properties=year&properties=make`;
 
 
